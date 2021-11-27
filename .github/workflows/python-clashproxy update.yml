@@ -21,7 +21,7 @@ jobs:
 
     - name: Update proxy lists
       run: |
-        python main.py
+        python main_script.py
         
     - name: commit
       run: |
